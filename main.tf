@@ -32,4 +32,9 @@ module "ACR" {
   source = "./module/ACR"
 
 }
+module "AKS" {
+  source = "./module/Kubernetscluster"
+
+}
+
 
